@@ -1,16 +1,16 @@
 # Student Management System
 
 ## Project Name
-**Student Management System (SMS) - Frontend Prototype**
+Student Management System - Frontend Assessment
 
 ## Student Name
-**Bharathkumar D**
+Bharathkumar D
 
 ## Technology Used
 - **Languages:** HTML5, CSS3, JavaScript (ES6+)
-- **Alternative Framework (included):** React.js (Vite)
+- **UI & Layout:** Custom Responsive Design (CSS Grid & Flexbox)
 - **Data:** JSON Dummy Data (`data/students.json`)
-- **Styling:** Custom Responsive CSS (Flexbox & CSS Grid)
+- **Hosting:** GitHub Pages
 
 ---
 
@@ -22,65 +22,49 @@
 - **Year/Semester-wise Summary:** Distribution across Year I, II, III, and IV.
 
 ### 2. Student List Directory
-- Displays student records with columns: **Register Number, Student Name, Department, Year/Semester, Email, Phone Number, and Actions**.
-- Status tags color-coded by department.
-- Empty-state message displayed when no records match.
+- Displays student records: Register Number, Student Name, Department, Year/Semester, Email, Phone Number, and Actions.
+- Status badges categorized by department.
+- Empty-state message when no matching records exist.
 
 ### 3. Add Student Form & Validation
 - Form fields: Register Number, Name, Email, Phone Number, Department, Year, and Semester.
-- **Robust Validation:**
-  - Mandatory fields check (prevents empty submissions).
-  - Valid email format (regex check).
-  - Valid phone number (strictly 10 digits).
-  - Duplicate Register Number detection (prevents registering existing IDs).
-  - Automatic semester synchronization based on selected year.
+- **Validation Rules:**
+  - All mandatory fields checked.
+  - Valid email format validation.
+  - Valid 10-digit phone number check.
+  - Duplicate Register Number detection.
   - Meaningful inline error messages.
 
 ### 4. Student Management Functionalities
-- **Add Student:** Appends newly validated student to active state.
-- **Edit Student:** Interactive popup modal pre-filled with student information for updates.
-- **Delete Student:** Deletes record only after showing a clear confirmation modal dialog.
-- **Live Search:** Instant filtering by Register Number or Student Name.
-- **Dropdown Filters:** Filter by Department and Year/Semester simultaneously.
+- **Add Student:** Adds new student record with instant validation.
+- **Edit Student:** Interactive modal pre-filled with student data to update records.
+- **Delete Student:** Removal with a confirmation modal prompt.
+- **Search Student:** Real-time search by Register Number or Student Name.
+- **Filter Students:** Simultaneous filtering by Department and Year/Semester.
 
-### 5. Additional Challenge (Bonus)
-- **Student Sorting:** Interactive column headers to sort by:
-  - Student Name (Ascending / Descending)
-  - Register Number (Ascending / Descending)
 
-### 6. UI & Responsive Design
-- Clean sidebar navigation: **Dashboard**, **Student List**, **Add Student**.
-- Responsive layout supporting Desktop, Tablet, and Mobile.
-- User-friendly toast notifications on record operations.
+## Screenshots
+<img width="1794" height="857" alt="Screenshot_2-10-2026_125942_bharath-dev77 github io" src="https://github.com/user-attachments/assets/78c473ed-4aba-4c1c-90b1-be14c656be2c" />
+<img width="1794" height="942" alt="Screenshot_2-10-2026_125956_bharath-dev77 github io" src="https://github.com/user-attachments/assets/8b0cdf09-122f-4c04-9835-2baca13adb2a" />
+<img width="1794" height="857" alt="Screenshot_2-10-2026_1303_bharath-dev77 github io" src="https://github.com/user-attachments/assets/c6ed9492-3bfc-4a4d-874a-f531266ee85b" />
 
 ---
 
 ## How to Run the Application
 
-### Option A: Standalone Instant Run (Zero Setup - Recommended)
-1. Double-click `index.html` (or right-click -> Open with Google Chrome / Microsoft Edge).
-2. The complete application runs instantly with all features, validation, modals, and search.
+### Live Demo (Recommended)
+You can access the live, deployed web application directly at:
+[https://bharath-dev77.github.io/student-management-bharathkumar/](https://bharath-dev77.github.io/student-management-bharathkumar/)
 
-### Option B: Running via React (Vite)
-1. Copy `src/App.jsx` and `src/App.css` into your React project.
-2. Ensure dependencies are installed:
-   ```bash
-   npm install
-   ```
-3. Start development server:
-   ```bash
-   npm run dev
-   ```
+### Run Locally
+1. Download or clone this repository.
+2. Open the folder and double-click `index.html`.
+3. It will run instantly in any web browser without needing any installation.
 
 ---
 
-## GitHub Submission Instructions
-To push to your GitHub repository `student-management-bharathkumar`:
-```bash
-git init
-git add .
-git commit -m "Initial commit: Student Management System Frontend Assessment"
-git branch -M main
-git remote add origin https://github.com/<your-username>/student-management-bharathkumar.git
-git push -u origin main
-```
+## Additional Features
+- **Student Sorting (Ascending / Descending):** Interactive sorting on table headers for both **Student Name** and **Register Number**.
+- **Interactive Modals:** Custom modal dialogs for editing records and confirming deletions.
+- **Responsive Layout:** Sidebar navigation with full responsiveness on desktop, tablet, and mobile screens.
+-
