@@ -1,0 +1,110 @@
+[
+  {
+    "registerNo": "23IT001",
+    "name": "Arun Kumar",
+    "email": "arun@example.com",
+    "phone": "9876543210",
+    "department": "IT",
+    "year": "III",
+    "semester": "V"
+  },
+  {
+    "registerNo": "23IT002",
+    "name": "Bavithra S",
+    "email": "bavithra@example.com",
+    "phone": "9876543211",
+    "department": "IT",
+    "year": "III",
+    "semester": "V"
+  },
+  {
+    "registerNo": "22CS014",
+    "name": "Deepak Raj",
+    "email": "deepak@example.com",
+    "phone": "9876543212",
+    "department": "CSE",
+    "year": "IV",
+    "semester": "VII"
+  },
+  {
+    "registerNo": "24CS045",
+    "name": "Divya M",
+    "email": "divya@example.com",
+    "phone": "9876543213",
+    "department": "CSE",
+    "year": "II",
+    "semester": "III"
+  },
+  {
+    "registerNo": "25CS089",
+    "name": "Hariharan K",
+    "email": "hari@example.com",
+    "phone": "9876543214",
+    "department": "CSE",
+    "year": "I",
+    "semester": "I"
+  },
+  {
+    "registerNo": "23EC011",
+    "name": "Kavitha R",
+    "email": "kavitha@example.com",
+    "phone": "9876543215",
+    "department": "ECE",
+    "year": "III",
+    "semester": "V"
+  },
+  {
+    "registerNo": "24EC032",
+    "name": "Manojkumar T",
+    "email": "manoj@example.com",
+    "phone": "9876543216",
+    "department": "ECE",
+    "year": "II",
+    "semester": "III"
+  },
+  {
+    "registerNo": "22ME005",
+    "name": "Naveen Prasad",
+    "email": "naveen@example.com",
+    "phone": "9876543217",
+    "department": "MECH",
+    "year": "IV",
+    "semester": "VII"
+  },
+  {
+    "registerNo": "23ME028",
+    "name": "Praveen V",
+    "email": "praveen@example.com",
+    "phone": "9876543218",
+    "department": "MECH",
+    "year": "III",
+    "semester": "V"
+  },
+  {
+    "registerNo": "24IT055",
+    "name": "Sneha Priya L",
+    "email": "sneha@example.com",
+    "phone": "9876543219",
+    "department": "IT",
+    "year": "II",
+    "semester": "III"
+  },
+  {
+    "registerNo": "24CS102",
+    "name": "Vigneshwaran M",
+    "email": "vignesh@example.com",
+    "phone": "9876543220",
+    "department": "CSE",
+    "year": "II",
+    "semester": "III"
+  },
+  {
+    "registerNo": "25EC067",
+    "name": "Yuvashree N",
+    "email": "yuva@example.com",
+    "phone": "9876543221",
+    "department": "ECE",
+    "year": "I",
+    "semester": "I"
+  }
+]
