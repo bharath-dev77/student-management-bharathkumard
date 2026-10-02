@@ -67,4 +67,3 @@ You can access the live, deployed web application directly at:
 - **Student Sorting (Ascending / Descending):** Interactive sorting on table headers for both **Student Name** and **Register Number**.
 - **Interactive Modals:** Custom modal dialogs for editing records and confirming deletions.
 - **Responsive Layout:** Sidebar navigation with full responsiveness on desktop, tablet, and mobile screens.
--
