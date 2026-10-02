@@ -54,7 +54,7 @@ Bharathkumar D
 
 ### Live Demo (Recommended)
 You can access the live, deployed web application directly at:
-[https://bharath-dev77.github.io/student-management-bharathkumar/](https://bharath-dev77.github.io/student-management-bharathkumar/)
+[https://bharath-dev77.github.io/student-management-bharathkumar/](https://bharath-dev77.github.io/student-management-bharathkumard/)
 
 ### Run Locally
 1. Download or clone this repository.
